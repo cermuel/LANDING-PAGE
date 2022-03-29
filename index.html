@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <title>LANDING PAGE</title>
+</head>
+
+<body>
+    <header>
+        <h1>YOUR LOGO</h1>
+
+        <section class="menu">
+            <ul class="menu-list">
+                <li class="active">Home</li>
+                <li>Products</li>
+                <li>About Us</li>
+                <li>Contact</li>
+            </ul>
+
+            <button>
+                <i class="fas fa-times"></i>
+                <i class="fas fa-bars"></i>
+            </button>
+        </section>
+    </header>
+
+    <section class="main">
+
+        <section class="left">
+            <p class="title">Information Technology</p>
+            <p class="msg">Information technology (IT) is the use of any computers, storage, networking and other physical devices, infrastructure and processes to create, process, store, secure and exchange all forms of electronic data</p>
+            <button class="cta">Learn More</button>
+        </section>
+
+        <section class="right">
+            <img src="./images/img.svg" alt="Langing image">
+        </section>
+
+    </section>
+
+    <script>
+        var menu = document.querySelector('.menu');
+        var menuBtn = document.querySelector('.menu button');
+        menuBtn.addEventListener('click', () => {
+            menu.classList.toggle('opened')
+        })
+    </script>
+
+<div class="mt-5 p-4 bg-dark text-white text-center gap-4" style="width: 100%"}>
+    <div className="">
+    <a href="https://www.instagram.com/cermuel" style="marginLeft: 10px; fontSize: 25px" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="http://cermuel.000webhostapp.com/" style="marginLeft: 10px; fontSize: 25px" target="_blank"><i class="fas fa-globe"></i></a>
+    <a href="https://github.com/cermuel/RICKIPEDIA" style="marginLeft: 10px; fontSize: 25px" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+    <div style="margin-top: 10px">
+    <i class="fas fa-code"></i> by <a href="http://cermuel.000webhostapp.com/" target="_blank" style="textDecoration: none; fontWeight: bold">Ngene Samuel</a> 2021
+    </div>
+  </div>
+</body>
+
+</html>
