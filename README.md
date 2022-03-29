@@ -1,3 +1,4 @@
-Source code related to my [YouTube Channel](https://www.youtube.com/channel/UCTSDQ3BAZfrweD2nBMwJEpQ)
+Basic Simple Landing Page for an Information System Website
 
-After downloading the code, open the browser on the index.html file.
+After downloading the code, open the browser on the index.html file
+
